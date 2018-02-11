@@ -39,7 +39,7 @@ The default role variables in ``defaults/main.yml`` are:
 
 .. code-block:: yaml
 
-        authorization_key_dir: "/Volumes/Home/private/key_file/fbp"
+        authorization_key_dir: "/Volumes/Home/private/key_file/project"
         authorization:
         project:
             key_dir: "{{ authorization_key_dir }}"
