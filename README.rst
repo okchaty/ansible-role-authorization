@@ -3,7 +3,7 @@ Ansible Role Authorization
 
 |Build Status| |Ansible Galaxy| |GitHub issues| |Average time to resolve an issue| |Percentage of issues still open| |GitHub license|
 
-:Version: 0.0.0
+:Version: 0.1.0
 :Web: https://github.com/hadenlabs/ansible-role-authorization
 :Download: http://github.com/hadenlabs/ansible-role-authorization
 :Source: http://github.com/hadenlabs/ansible-role-authorization
@@ -39,7 +39,7 @@ The default role variables in ``defaults/main.yml`` are:
 
 .. code-block:: yaml
 
-        authorization_key_dir: "/Volumes/Home/private/key_file/fbp"
+        authorization_key_dir: "/Volumes/Home/private/key_file/project"
         authorization:
         project:
             key_dir: "{{ authorization_key_dir }}"
